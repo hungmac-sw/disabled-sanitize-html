@@ -1,0 +1,40 @@
+{
+  "name": "mac/disabled-sanitize-html",
+  "description": "Disabled sanitize html",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MacDisabledSantizeHtml\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hung Mac",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "shopware-plugin-class": "MacDisabledSantizeHtml\\MacDisabledSantizeHtml",
+    "label": {
+      "de-DE": "Disabled sanitize html",
+      "en-GB": "Disabled sanitize html"
+    },
+    "description": {
+      "de-DE": "Against Text Editor bereinigt HTML code",
+      "en-GB": "Against Text Editor cleans up html code"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://hungmac.com",
+      "en-GB": "https://hungmac.com"
+    },
+    "supportLink": {
+       "de-DE": "https://hungmac.com",
+       "en-GB": "https://hungmac.com"
+    }
+  },
+  "require": {
+    "shopware/core": "~6.5"
+  }
+}
